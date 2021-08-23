@@ -104,6 +104,7 @@ ul {
 
 a {
   text-decoration: none;
+  color: var(--text-color);
 }
 
 img {
@@ -111,3 +112,71 @@ img {
   height: auto;
 }
 
+/*==================== RE-USABLE CSS CLASSES ====================*/
+.section {
+  padding: 2rem 0 4rem;
+}
+
+.title {
+  font-size: var(--h1-font-size);
+}
+
+.subtitle {
+  display: block;
+  font-size: var(--small-font-size);
+  margin-bottom: var(--mb-3-2);
+}
+
+.title,
+.subtitle {
+  text-align: center;
+}
+/*==================== LAYOUT ====================*/
+.container {
+  max-width: 75.8rem;
+  margin-left: var(--mb-1-6);
+  margin-right: var(--mb-1-6);
+}
+
+.grid {
+  display: grid;
+  gap: 2.4rem;
+}
+
+
+/*==================== HOME ====================*/
+
+/*==================== BUTTONS ====================*/
+
+/*==================== ABOUT ====================*/
+
+/*==================== SKILLS ====================*/
+
+/*==================== QUALIFICATION ====================*/
+
+/*==================== SERVICES ====================*/
+
+/* Active Modal */
+
+/*==================== PORTFOLIO ====================*/
+
+/*==================== PROJECT IN MIND ====================*/
+
+/*==================== TESTIMONIAL ====================*/
+
+/*==================== CONTACT ME ====================*/
+
+/*==================== FOOTER ====================*/
+
+/*========== SCROLL UP ==========*/
+
+/* Show scroll */
+
+/*========== SCROLL BAR ==========*/
+
+/*==================== MEDIA QUERIES ====================*/
+/* For small devices */
+
+/* For medium devices */
+
+/* For large devices */
