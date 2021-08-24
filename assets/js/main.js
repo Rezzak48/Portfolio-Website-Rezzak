@@ -1,4 +1,4 @@
-/*============Menu============*/
+/*============ Menu ============*/
 const navMenu = document.getElementById("nav-menu"),
   navToggle = document.getElementById("nav-toggle"),
   navClose = document.getElementById("nav-close");
@@ -19,13 +19,14 @@ if (navClose) {
   });
 }
 
-/* ===== REMOVE MOBILE MENU ===== */
+/* ===== REMOVE MOBILE MENU ON EACH CLICK ===== */
 const navLink = document.querySelectorAll(".nav-link");
+// const navMenu = document.getElementById("nav-menu");
 
-function linkAction() {
-  const navMenu = document.getElementById("nav-menu");
-  //   this line remove menu after clicking on ine item
-  navMenu.classList.remove("show-menu");
-}
 // doing action for any item got clicked!
-navLink.forEach((n) => n.addEventListener("click", linkAction));
+navLink.forEach((n) =>
+  n.addEventListener("click", () => {
+    navMenu.classList.remove("show-menu");
+  })
+);
+

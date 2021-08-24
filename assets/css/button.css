@@ -1,0 +1,24 @@
+/* ==================== BUTTON ==================== */
+.button {
+  display: inline-block;
+  background-color: var(--main-color);
+  color: white;
+  padding: 1.6rem;
+  border-radius: 0.8rem;
+  font-weight: var(--font-medium);
+}
+
+.button:hover {
+  background-color: var(--main-color-alt);
+}
+
+.button-icon {
+  font-size: 2rem;
+  margin-left: var(--mb-0-8);
+  transition: 0.3s;
+}
+
+.button-flex {
+  display: inline-flex;
+  align-items: center;
+}
