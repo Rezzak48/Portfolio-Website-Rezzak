@@ -9,7 +9,7 @@
   --header-height: 4.8rem;
 
   /*========== Colors ==========*/
-  --identity-color: 000; 
+  --identity-color: 000;
 
   /* HSL color mode */
   --main-color: hsl(var(--identity-color), 69%, 61%);
@@ -117,18 +117,18 @@ img {
   padding: 2rem 0 4rem;
 }
 
-.title {
+.section-title {
   font-size: var(--h1-font-size);
 }
 
-.subtitle {
+.section-subtitle {
   display: block;
   font-size: var(--small-font-size);
   margin-bottom: var(--mb-3-2);
 }
 
-.title,
-.subtitle {
+.section-title,
+.section-subtitle {
   text-align: center;
 }
 /*==================== LAYOUT ====================*/
@@ -142,7 +142,3 @@ img {
   display: grid;
   gap: 2.4rem;
 }
-
-
-
-
