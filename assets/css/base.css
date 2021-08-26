@@ -9,8 +9,8 @@
   --header-height: 4.8rem;
 
   /*========== Colors ==========*/
-  --identity-color: 000;
-
+  --identity-color: 252;
+  /* --cccc: #7257e0; */
   /* HSL color mode */
   --main-color: hsl(var(--identity-color), 69%, 61%);
   --main-color-second: hsl(var(--identity-color), 69%, 61%);
