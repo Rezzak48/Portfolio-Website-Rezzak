@@ -1,0 +1,67 @@
+/*====================  QUALIFICATIONS ====================*/
+.qualifications-tabs {
+  display: flex;
+  justify-content: space-evenly;
+  margin-bottom: var(--mb-2-4);
+}
+
+.qualifications-button {
+  font-size: var(--h3-font-size);
+  font-weight: var(--font-medium);
+  cursor: pointer;
+}
+
+.qualifications-button:hover {
+  color: var(--main-color);
+}
+
+.qualifications-icon {
+  font-size: 2.88rem;
+  margin-right: var(--mb-0-8);
+}
+
+.qualification-data {
+  display: grid;
+  grid-template-columns: 1fr max-content 1fr;
+  column-gap: 2.4rem;
+}
+
+.qualifications-title {
+  font-size: var(--normal-font-size);
+  font-weight: var(--font-medium);
+}
+
+.qualifications-subtitle {
+  display: inline-block;
+  font-size: var(--small-font-size);
+  margin-bottom: var(--mb-1-2);
+}
+
+.qualifications-calendar {
+  font-size: var(--smaller-font-size);
+  color: var(--text-color-light);
+}
+
+.qualifications-rounder {
+  display: inline-block;
+  width: 13px;
+  height: 13px;
+  background-color: var(--main-color);
+  border-radius: 50%;
+}
+
+.qualifications-line {
+  display: block;
+  width: 1px;
+  height: 100%;
+  background-color: var(--main-color);
+  transform: translate(6px, -6px);
+}
+
+.qualifications [data-content] {
+  display: none;
+}
+
+.qualification-active[data-content] {
+  display: block;
+}
