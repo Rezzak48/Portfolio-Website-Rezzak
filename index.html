@@ -21,6 +21,8 @@
     <link rel="stylesheet" href="assets/css/skills.css" />
     <link rel="stylesheet" href="assets/css/qualifications.css" />
     <link rel="stylesheet" href="assets/css/services.css" />
+    <link rel="stylesheet" href="assets/css/portfolio.css" />
+    <link rel="stylesheet" href="assets/css/swiper-bundle.min.css" />
 
     <title>Portfolio</title>
   </head>
@@ -549,12 +551,84 @@
         </div>
       </section>
 
-      <!--====================  ====================-->
+      <!--==================== PORTFOLIO ====================-->
+      <section class="section portfolio" id="portfolio">
+        <h2 class="section-title">Portfolio</h2>
+        <span class="section-subtitle"> Liked work </span>
+
+        <div class="portfolio-container container swiper mySwiper">
+          <div class="swiper-wrapper">
+            <!--==================== PORTFOLIO 1 ====================-->
+            <div class="portfolio-content grid swiper-slide">
+              <img
+                src="./assets/images/about.jpg"
+                alt="portfolio image"
+                class="portfolio-img"
+              />
+
+              <div class="portfolio-data">
+                <h3 class="portfolio-title">Modern Website</h3>
+                <p class="portfolio-description">
+                  description : Lorem ipsum dolor sit amet consectetur
+                  adipisicing elit. Fugiat autem quaerat laboriosam excepturi
+                  enim, voluptates consequatur!
+                </p>
+                <a
+                  href="#"
+                  class="button portfolio-button button-flex button-small"
+                >
+                  Demo
+                  <i class="uil uil-arrow-right button-icon"></i>
+                </a>
+              </div>
+            </div>
+            <!--==================== PORTFOLIO 2 ====================-->
+            <div class="portfolio-content grid swiper-slide">
+              <img
+                src="./assets/images/about.jpg"
+                alt="portfolio image"
+                class="portfolio-img"
+              />
+
+              <div class="portfolio-data">
+                <h3 class="portfolio-title">Modern Website 2</h3>
+                <p class="portfolio-description">
+                  description 2 : Lorem ipsum dolor sit amet consectetur
+                  adipisicing elit. Fugiat autem quaerat laboriosam excepturi
+                  enim, voluptates consequatur!
+                </p>
+                <a
+                  href="#"
+                  class="button portfolio-button button-flex button-small"
+                >
+                  Demo
+                  <i class="uil uil-arrow-right button-icon"></i>
+                </a>
+              </div>
+            </div>
+
+          </div>
+          
+          <div class="swiper-button-next">
+            <i class="uil uil-angle-right-b swiper-portfolio-icon"></i>
+          </div>
+          <div class="swiper-button-prev">
+            <i class="uil uil-angle-left-b swiper-portfolio-icon"></i>
+          </div>
+          <div class="swiper-pagination"></div>
+        </div>
+
+
+          </div>
+        </div>
+      </section>
     </main>
     <!--====================  ====================-->
     <script src="assets/js/main.js"></script>
     <script src="assets/js/skills.js"></script>
     <script src="assets/js/qualifications.js"></script>
     <script src="assets/js/services.js"></script>
+    <script src="assets/js/swiper-bundle.min.js"></script>
+    <script src="assets/js/porfolio.js"></script>
   </body>
 </html>
