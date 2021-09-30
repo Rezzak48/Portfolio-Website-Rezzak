@@ -18,6 +18,15 @@
   transition: 0.3s;
 }
 
+.button-white {
+  background-color: #fff;
+  color: var(--main-color);
+}
+
+.button-white:hover {
+  background-color: #fff;
+}
+
 .button-flex {
   display: inline-flex;
   align-items: center;
@@ -41,4 +50,3 @@
 .button-link:hover .button-icon {
   transform: translateX(2rem);
 }
-

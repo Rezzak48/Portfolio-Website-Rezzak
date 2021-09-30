@@ -1,0 +1,26 @@
+.project {
+    text-align: center;
+}
+
+.project-bg {
+    background-color: var(--main-color);
+    padding-top: 4.8rem;
+}
+
+.project-title {
+    font-size: var(--h2-font-size);
+    margin-bottom: var(--mb-0-8);
+}
+
+.project-description {
+    margin-bottom: var(--mb-1-6);
+}
+
+.project-title, .project-description {
+    color: white;
+}
+
+.project-img {
+    width: 23.2rem;
+    justify-self: center;
+}
