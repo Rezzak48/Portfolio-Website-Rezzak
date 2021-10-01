@@ -134,11 +134,12 @@ img {
 /*==================== LAYOUT ====================*/
 .container {
   max-width: 75.8rem;
-  margin-left: var(--mb-1-6);
-  margin-right: var(--mb-1-6);
+  margin-left: var(--mb-1-6) !important;
+  margin-right: var(--mb-1-6) !important;
 }
 
 .grid {
   display: grid;
   gap: 2.4rem;
 }
+

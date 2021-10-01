@@ -1,0 +1,38 @@
+.testimonial-data,
+.testimonial-header {
+  display: flex;
+}
+
+.testimonial-data {
+  justify-content: space-between;
+  margin-bottom: var(--mb-1-2);
+}
+
+.testimonial-img {
+  width: 6rem;
+  height: 6rem;
+  border-radius: 50%;
+  margin-right: var(--mb-0-8);
+}
+
+.testimonial-name {
+  font-size: var(--h3-font-size);
+  font-weight: var(--font-medium);
+}
+
+.testimonial-person {
+  font-size: var(--small-font-size);
+  color: var(--text-color-light);
+}
+
+.testimonial-description {
+  margin-bottom: var(--mb-3-2);
+}
+
+.testimonial-icon-star {
+  color: var(--main-color);
+}
+
+.testimonial-container .swiper-pagination-testimonial {
+  bottom: 0 !important;
+}
