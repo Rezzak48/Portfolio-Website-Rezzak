@@ -1,0 +1,16 @@
+/*========== Button Dark/Light ==========*/
+.nav-btn {
+display: flex;
+align-items: center;
+}
+
+.change-theme {
+    font-size: 2rem;
+    color: var(--title-color);
+    margin-right: var(--mb-1-2);
+    cursor: pointer;
+}
+
+.change-theme:hover {
+    color: var(--main-color-alt);
+}

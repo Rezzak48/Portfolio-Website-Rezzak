@@ -10,7 +10,7 @@
 
   /*========== Colors ==========*/
   --identity-color: 252;
-  /* --cccc: #7257e0; */
+  /* --cccc: #7257e0; // 544 */ 
   /* HSL color mode */
   --main-color: hsl(var(--identity-color), 69%, 61%);
   --main-color-second: hsl(var(--identity-color), 69%, 61%);
@@ -68,8 +68,15 @@
 }
 
 /*========== Variables Dark theme ==========*/
+body.dark-theme {
+  --main-color-second: hsl(var(--identity-color), 30%, 8%);
+  --title-color: hsl(var(--identity-color), 8%, 95%);
+  --text-color: hsl(var(--identity-color), 8%, 75%);
+  --input-color: hsl(var(--identity-color), 29%, 16%);
+  --body-color: hsl(var(--identity-color), 28%, 12%);
+  --container-color: hsl(var(--identity-color), 29%, 16%);
+}
 
-/*========== Button Dark/Light ==========*/
 
 /*==================== BASE ====================*/
 * {
