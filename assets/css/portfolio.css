@@ -1,17 +1,21 @@
 .portfolio-container {
   overflow: initial !important;
-  max-width: 26.5rem;
-  /* height: auto; */
 }
 
 .portfolio-content {
   padding: 0 1.5rem;
+  justify-content: center;
 }
 
 .portfolio-img {
   border-radius: 0.8rem;
   justify-self: center;
+  max-width: 26.5rem;
 }
+
+.portfolio-data {
+  max-width: 26.5rem;
+  }
 
 .portfolio-title {
   font-size: var(--h3-font-size);
