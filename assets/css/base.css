@@ -10,7 +10,7 @@
 
   /*========== Colors ==========*/
   --identity-color: 252;
-  /* --cccc: #7257e0; // 544 */ 
+  /* --cccc: #7257e0; // 544 */
   /* HSL color mode */
   --main-color: hsl(var(--identity-color), 69%, 61%);
   --main-color-second: hsl(var(--identity-color), 69%, 61%);
@@ -22,6 +22,8 @@
   --input-color: hsl(var(--identity-color), 70%, 96%);
   --body-color: hsl(var(--identity-color), 60%, 99%);
   --container-color: rgb(255, 255, 255);
+  --scroll-bar-color: hsl(var(--identity-color), 12%, 90%);
+  --scroll-thumb-color: hsl(var(--identity-color), 12%, 80%);
 
   /*========== Font and typography ==========*/
   --body-font: "Poppins", sans-serif;
@@ -75,7 +77,33 @@ body.dark-theme {
   --input-color: hsl(var(--identity-color), 29%, 16%);
   --body-color: hsl(var(--identity-color), 28%, 12%);
   --container-color: hsl(var(--identity-color), 29%, 16%);
+  --scroll-bar-color: hsl(var(--identity-color), 12%, 48%);
+  --scroll-thumb-color: hsl(var(--identity-color), 12%, 36%);
 }
+
+/*========== SCROLL BAR ==========*/
+::-webkit-scrollbar {
+  width: 0.96rem;
+  background-color: var(--scroll-bar-color);
+  border-radius: 0.8rem;
+}
+
+::-webkit-scrollbar-thumb {
+  width: 0.96rem;
+  background-color: var(--scroll-thumb-color);
+  border-radius: 0.8rem;
+}
+
+::-webkit-scrollbar-thumb:hover {
+  background-color: var(--text-color);
+}
+
+html {
+  scroll-behavior: smooth;
+  scrollbar-color: hsl(252, 12%, 90%) ;
+  scrollbar-width: thin;
+}
+
 
 
 /*==================== BASE ====================*/
@@ -85,9 +113,7 @@ body.dark-theme {
   margin: 0;
 }
 
-html {
-  scroll-behavior: smooth;
-}
+
 
 body {
   margin: 0 0 var(--header-height) 0;
@@ -149,4 +175,3 @@ img {
   display: grid;
   gap: 2.4rem;
 }
-
