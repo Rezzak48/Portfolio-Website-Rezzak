@@ -92,5 +92,11 @@ nav-toggle:hover {
 }
 
 /* Active link */
+.active-linkk {
+  color: var(--main-color);
+  }
 
 /* Change background header */
+.scroll-header {
+  box-shadow: 0 -1px 4px rgba(0, 0, 0, .15);
+}

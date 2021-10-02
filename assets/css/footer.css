@@ -52,3 +52,30 @@
 .footer-social {
     color: #fff;
 }
+
+/* <!--==================== SCROLL TOP ====================--> */
+.scroll-up {
+    position: fixed;
+    right: 1.6rem;
+    /* bottom: 8rem; */
+    bottom: -40%;
+    background-color: var(--main-color);
+    padding: 0 .48rem;
+    z-index: var(--z-tooltip);
+    opacity: .8;
+    border-radius: .65rem;
+    transition: .4s;
+}
+
+.scroll-up:hover {
+    background-color: var(--main-color-alt);
+}
+
+.scrollup-icon {
+    font-size: 2.4rem;
+    color: #fff;
+}
+
+.scroll-up-show {
+    bottom: 8rem;
+}

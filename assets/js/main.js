@@ -30,3 +30,20 @@ navLink.forEach((n) =>
   })
 );
 
+/*==================== CHANGE BACKGROUND HEADER ====================*/
+function scrollHeader() {
+  const nav = document.getElementById("header");
+  // When the scroll is greater than 200 viewport height, add the scroll-header class to the header tag
+  if (this.scrollY >= 200) nav.classList.add("scroll-header");
+  else nav.classList.remove("scroll-header");
+}
+window.addEventListener("scroll", scrollHeader);
+
+/*==================== SCROLL UP ====================*/
+function scrollUp() {
+  const scrl = document.getElementById("scroll-up");
+  // When the scroll is greater than 600 viewport height, add the scroll-header class to the header tag
+  if (this.scrollY >= 600) scrl.classList.add("scroll-up-show");
+  else scrl.classList.remove("scroll-up-show");
+}
+window.addEventListener("scroll", scrollUp);
