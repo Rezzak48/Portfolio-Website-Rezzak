@@ -88,8 +88,8 @@
 
 @media screen and (min-width: 768px) {
   .container {
-    margin-left: auto;
-    margin-right: auto;
+    margin-left: auto !important;
+    margin-right: auto !important;
   }
 
   body {
@@ -234,5 +234,39 @@
   }
   .footer-copy {
     margin-top: 7.2rem;
+  }
+}
+
+/* For larger devices */
+@media screen and (min-width: 1024px) {
+  .header,
+  .main,
+  .footer-container {
+    padding: 0;
+  }
+
+  .home-blob {
+    width: 32rem;
+  }
+  .home-social {
+    transform: translateX(-6rem);
+  }
+
+  /* .services-container {
+    grid-template-columns: repeat();
+  } */
+
+  .portfolio-content {
+    column-gap: 8rem;
+  }
+  .swiper-portfolio-icon {
+    font-size: 5.6rem;
+  }
+
+  .contact-form {
+    width: 46rem;
+  }
+  .contact-inputs {
+    grid-template-columns: repeat(2, 1fr);
   }
 }

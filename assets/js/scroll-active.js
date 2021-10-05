@@ -12,11 +12,11 @@ function scrollActive() {
     if (scrollY > sectionTop && scrollY <= sectionTop + sectionHeight) {
       document
         .querySelector(".nav-menu a[href*=" + sectionId + "]")
-        .classList.add("active-linkk");
+        .classList.add("active-link");
     } else {
       document
         .querySelector(".nav-menu a[href*=" + sectionId + "]")
-        .classList.remove("active-linkk");
+        .classList.remove("active-link");
     }
   });
 }
