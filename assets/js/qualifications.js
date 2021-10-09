@@ -1,33 +1,29 @@
-// ========= Qualifications ==========
-const tabs = document.querySelectorAll("[data-target]"),
-  tabContents = document.querySelectorAll("[data-content]");
+let tabs = document.querySelectorAll(".qualifications-tabs div");
+tabsArray = Array.from(tabs);
+let contents = document.querySelectorAll(".qualifications-sections div");
+contentArray = Array.from(contents);
 
-  
-tabs.foreach((tab) => {
-  tab.addEventListener("click", () => {
-   
-    const target = document.querySelector(tab.dataset.target);
-
-    tabContents.forEach((tabContent) => {
-      tabContent.classList.remove("qualification-active");
+tabsArray.forEach((ele) => {
+  ele.addEventListener("click", function (e) {
+    //remove active class from all elements
+    tabsArray.forEach((ele) => {
+      ele.classList.remove("qualification-active");
     });
 
-    target.classList.add("qualification-active");
+    //add active class to the current target
+    e.currentTarget.classList.add("qualification-active");
+    console.log(e.currentTarget);
 
-    tab.forEach((tab) => {
-      tab.classList.remove("qualification-active");
+    //remove all content
+    contentArray.forEach((ele) => {
+      ele.classList.remove("qualification-active");
     });
 
-    tab.classList.remove("qualification-active");
+    //display content related to the active tab and edit on it
+    console.log(e.currentTarget.dataset.cont);
+
+    document
+      .querySelector(e.currentTarget.dataset.cont)
+      .classList.add("qualification-active");
   });
 });
-
-// function accordion() {
-//   let itemClass = this.parentNode.className;
-//   for (e of tabContent) {
-//     e.className = "qualifications-content";
-//   }
-//   if (itemClass === "qualifications-content") {
-//     itemClass = "qualifications-content qualifications-active";
-//   }
-// }

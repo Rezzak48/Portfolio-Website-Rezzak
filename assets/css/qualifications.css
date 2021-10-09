@@ -58,10 +58,10 @@
   transform: translate(6px, -6px);
 }
 
-.qualifications [data-content] {
+.qualifications-content {
   display: none;
 }
 
-.qualification-active[data-content] {
+.qualification-active {
   display: block;
 }

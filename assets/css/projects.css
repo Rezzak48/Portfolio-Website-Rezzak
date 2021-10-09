@@ -16,6 +16,10 @@
     margin-bottom: var(--mb-1-6);
 }
 
+.project-button {
+    margin-bottom: 2rem;
+}
+
 .project-title, .project-description {
     color: white;
 }
