@@ -13,6 +13,8 @@
   height: 6rem;
   border-radius: 50%;
   margin-right: var(--mb-0-8);
+  object-fit: cover;
+  object-position: center;
 }
 
 .testimonial-name {
