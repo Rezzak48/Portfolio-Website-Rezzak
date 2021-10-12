@@ -25,24 +25,15 @@ Users should be able to:
 
 ### Screenshot
 
-<!-- ![](./DesignScreenshots/DesktopScreen.png)
-![](./DesignScreenshots/MobileVersion.png) -->
 
 ### Links
 
 <!-- - Live Site URL: [Live Site URL:](linkHere)
-- Solution URL: [Solution URL:](linkHere) -->
 
 ## My process
 
 ### Built with
 
-<!-- Info -->
-<!-- - Semantic HTML5 markup
-- CSS custom properties
-- Flex box
-- Desktop-first workflow
--->
 
 ### What I learned
 
@@ -51,6 +42,4 @@ Users should be able to:
 ## Author
 
 <!-- - Website - [](NotAvailableForNow) -->
-
-- Frontend Mentor - [@Rezzak](https://www.frontendmentor.io/profile/errazakallah31)
 - Twitter - [@Rezzak_48](https://twitter.com/Rezzak_48)
