@@ -38,4 +38,9 @@
   justify-content: center;
 }
 
+.about-data {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+}
 
